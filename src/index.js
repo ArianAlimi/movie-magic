@@ -15,10 +15,16 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/create', (req, res) => {
+    res.render('create');
+});
 
+app.get('/search', (req, res) => {
+    res.render('search');
+});
 
-// app.get('/about', (req, res) => {
-
-// });
+app.get('/about', (req, res) => {
+    res.render('about');
+});
 
 app.listen(5000, () => console.log('http://localhost:5000...'))
