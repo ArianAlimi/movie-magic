@@ -27,7 +27,7 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/404', (req, res) => {
+app.get('*', (req, res) => {
     res.render('404');
 });
 
