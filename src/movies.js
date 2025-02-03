@@ -7,7 +7,7 @@ export default [
         imageUrl: '/static/img/jungle-cruise.jpeg',  
         director: 'Joro',
         year: '2020',
-        rating: '5',
+        rating: 5,
         category: 'Movie',
       
     },
@@ -20,7 +20,7 @@ export default [
         imageUrl: 'https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
         director: 'Justin Roiland',
         year: '2010',
-        rating: '5',
+        rating: 5,
         category: 'Serie',
     }
 ]
