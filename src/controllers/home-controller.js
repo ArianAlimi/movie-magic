@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import movies from '../movies.js';
+import movies from '../movies.js';// Temporary solution
 
 const routes = Router();
 
@@ -9,10 +9,6 @@ routes.get('/', (req, res) => {
 
 routes.get('/about', (req, res) => {
     res.render('about');
-});
-
-routes.get('/create', (req, res) => {
-    res.render('create');
 });
 
 routes.get('/search', (req, res) => {

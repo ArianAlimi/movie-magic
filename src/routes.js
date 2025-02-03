@@ -1,12 +1,14 @@
 import { Router } from 'express';
 import homeController from './controllers/home-controller.js';
+import movieController from './controllers/movie-controller.js';
 
-const router = Router();
+const routes = Router();
 
-router.use(homeController);
+routes.use(homeController);
+routes.use(movieController)
 
-router.get('*', (req, res) => {
+routes.get('*', (req, res) => {
     res.render('404');
 });
 
-export default router;
+export default routes;
