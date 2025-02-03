@@ -12,9 +12,4 @@ routes.get('/about', (req, res) => {
     res.render('about');
 });
 
-routes.get('/search', (req, res) => {
-    res.render('search');
-});
-
-
 export default routes;
